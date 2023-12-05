@@ -18,6 +18,8 @@ if __name__ == '__main__':
     bulb_1.turn_on()
     bulb_1.effect = "sudden"
 
+    #There are more commands possible that you can enact once you have control over a bulb. Check Online.
+    
     #This is a simple subscript that will generate a strobe light effect for 30 seconds
     time_end = time.time() + 60 * 0.5 #time_end is set 30 seconds after current time
     while time.time() < time_end:
