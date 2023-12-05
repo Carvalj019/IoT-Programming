@@ -47,6 +47,7 @@ if __name__ == '__main__':
     device_folder = glob.glob(base_dir + '28*')[0]
     device_file = device_folder + '/w1_slave'
 
+    #Assuming you're runnning from an IDE, use the 'Stop' button to break this loop
     while True:
         lcd.cursor_pos = (0, 0)
         tempC = read_temp_c()
